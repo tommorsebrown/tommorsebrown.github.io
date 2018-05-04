@@ -4,5 +4,6 @@ body {
 
 h1, p {
 	color: gold;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Helvetica", sans-serif;
+	font-size: 50px;
 }
