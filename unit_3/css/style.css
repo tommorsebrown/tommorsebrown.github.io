@@ -1,0 +1,23 @@
+body {
+	color: rgb(117, 200, 170);
+	font-size: 20px;
+}
+
+h1 {
+	color: rgb(117, 200, 170);
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	color: black;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: Arial, sans-serif;
+	color: black;
+	font-size: 60px;
+	font-weight: bold;
+}
