@@ -43,3 +43,27 @@ h3 {
 	padding: 10em 0 0;
 	height: 85vh;
 }
+
+#two-column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#about {
+	background-color: #violet;
+	border: 1px black solid;
+	padding: 20px;
+	width: 30%;
+	float: left;
+	display: inline-block;
+}
+
+#about2 {
+	background-color: #pink;
+	border: 1px black solid;
+	padding: 20px;
+	width: 62%;
+	float: right;
+	display: inline-block;
+}

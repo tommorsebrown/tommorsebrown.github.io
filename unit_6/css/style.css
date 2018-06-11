@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Quattrocento+Sans|Playfair+Display');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	line-height: 1.75em;
+}
+
+nav {
+	background-color: #aaa;
+	font-family: Arial, sans-serif;
+}
+
+a {
+	margin: 30px;
+	background-color: #ff7900;
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	width: 200px;
+}
+
+a:hover {
+	background-color: #aaa;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+img {
+	width: 600px;
+}
+
+h1 {
+	color: rgb(0, 0, 0);
+	font-family: 'Archivo Black', sans-serif;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	color: black;
+	font-size: 80px;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: 'Archivo Black', sans-serif;
+	color: black;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#smallcaps {
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+#splash {
+	background:url(../images/rs-brochure.jpg);
+	background-size: cover;
+	padding: 10em 0 0;
+	height: 85vh;
+}
+
+#about {
+	margin: 20px;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
