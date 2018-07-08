@@ -55,7 +55,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Chivo', sans-serif;
+	font-family: 'Anonymous Pro:bold', monospace;
 	color: black;
 	font-size: 1em 0 0;
 	font-weight: normal;
@@ -184,12 +184,12 @@ footer {
 	h1 {
 		font-size: 3em;
 		line-height: 1.125em;
-		margin: 1.5em;
 	}
 	nav {
 		float:none;
 		text-align: center;
 		margin: 0 0 1em 0;
+		font-size: 1.25em;
 	}
 	h4 {
 		display: block;
