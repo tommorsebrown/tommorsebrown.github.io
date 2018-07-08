@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Quattrocento+Sans|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Chivo:900i|Quattrocento+Sans|Playfair+Display|Anonymous+Pro');
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-color: black;
+	background-color: white;
 	color: rgb(0, 0, 0);
 	font-size: 20px;
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -12,33 +12,38 @@ body {
 }
 
 nav {
-	font-family: Arial, sans-serif;
+	font-family: 'Anonymous Pro+bold', monospace;	
 	text-align: right;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: black;
 	display: block;
 	float: right;
 }
 
 a {
-	margin-left: 1.5em;
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
 img {
-	width: 100%;
+	width: 50%;
+	float: left;
+}
+
+p { 
+	color: black;
+	font-family: 'Anonymous Pro', monospace;
+
 }
 
 h1 {
-	color: rgb(0, 0, 0);
-	font-family: 'Playfair Display', sans-serif;
+	color: #75c8aa;
+	font-family: 'Chivo', sans-serif;
 	text-transform: uppercase;
 	font-size: 4em;
 	line-height: 1.125em;
 	margin: .5em;
-}
-
-p { 
-	color: white;
 }
 
 h2 {
@@ -50,27 +55,65 @@ h2 {
 }
 
 h3 {
-	font-family: 'Archivo Black', sans-serif;
-	color: white;
+	font-family: 'Chivo', sans-serif;
+	color: black;
 	font-size: 1em 0 0;
 	font-weight: normal;
 	text-align: center;
 }
 
 h4 {
-	color: white;
-	font-family: 'Archivo Black', sans-serif;
+	color: black;
+	font-family: 'Anonymous Pro+bold', monospace;
 	text-transform: uppercase;
 	font-size: 1.75em;
 	float: left;
 	padding-right: 1em;
 }
 
+footer {
+	background-color: black;
+}
+
+.navlink {
+	padding-right: 1em;
+}
+
+.full {
+	width: 100%;
+	padding: 0 0 1.25em 0;
+}
+
+.halfleft {
+	width: 50%;
+	padding: 0 0.625em 1.25em 0;
+}
+
+.halfright {
+	width: 50%;
+	padding: 0 0 1.25em 0.625em;
+}
+
+.twothirdsleft {
+	width: 68.25%;
+	padding: 0 1.25em 0 0;
+}
+
+.onethirdtopright {
+	width: 31.75%;
+	padding: 0 0 1.25em 0;
+}
+
+.onethirdbottomright {
+	width: 31.75%;
+	padding: 0 0 1.25em 0;
+}
+
 #splash {
 	background-size: cover;
-	background-color: #fff;
+	background-color: black;
 	padding: 1em 0 0;
-	height: 90vh;
+	height: 78vh;
 	margin-top: 1.5%; 
 }
 
@@ -87,44 +130,13 @@ h4 {
   display: block;
 }
 
-.column-half-left {
-	width: 50%;
-	float: left;
-	padding: 0 1% 1% 0;
-}
-
-.column-half-right {
-	width: 50%;
-	float: right;
-	padding: 0 0 1% 1%;
-}
-
-.column-twothirds-left {
-	float: left;
-	width: 66.66%;
-	padding: 0 1% 1% 0;
-}
-
-.column-onethird-right {
-	float: right;
-	width: 33.33%;
-	padding: 0 0 1% 1%;
-}
-
-.column-full {
-	float: left;
-	width: 100%;
-	padding: 0 0 1% 0;
-}
-
-#two_column {
+#two-column {
     background-color: white;
     border: 0 black solid;
     padding: 0px;
 }
 
 #left {
-    background-color: black;
     border: 0 black solid;
     padding: 0px;
     float: left;
@@ -132,7 +144,6 @@ h4 {
 }
 
 #right {
-    background-color: black;
     border: 0 black solid;
     padding: 0px;
     float: right;   
@@ -153,6 +164,10 @@ h4 {
 		float: none;
 		text-align: center;
 	}
+	p {
+		font-size: 18px;
+		line-height: 1.75em;
+	}
 }
 
 
@@ -162,7 +177,9 @@ h4 {
 		text-align: center;
 	}
 	img {
-		display: block;
+		float: none;
+		width: 100%
+		padding: 0 0 0.125em;
 	}
 	h1 {
 		font-size: 3em;
@@ -177,6 +194,18 @@ h4 {
 	h4 {
 		display: block;
 		text-align: center;
+	}
+	p {
+		font-size: 16px;
+		line-height: 1.75em;
+	}
+	#about {
+	margin: 1em 2em;
+	padding: 1em;
+	}
+	h3 {
+	font-size: 0.825em;
+	line-height: 1.75em;
 	}
 }
 
